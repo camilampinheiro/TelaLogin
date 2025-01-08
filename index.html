@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <form action="">
+            <h1>Login</h1>
+
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <ion-icon name="person"></ion-icon>
+            </div>
+            
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <ion-icon name="lock-closed"></ion-icon>
+            </div>
+
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn">
+                Login
+            </button>
+
+            <div class="register-link">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
